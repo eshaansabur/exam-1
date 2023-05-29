@@ -6,6 +6,8 @@ import Index from "./components/Index.jsx";
 import All from './components/All';
 import Active from './components/Active';
 import Complete from './components/Complete';
+import USA from './components/USA';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path='/all' element={<All></All>}></Route>
           <Route path='/active' element={<Active></Active>}></Route>
           <Route path='/completed' element={<Complete></Complete>}></Route>
+          <Route path='/usa' element={<USA></USA>}></Route>
         </Route>
       </Routes>
     </>
